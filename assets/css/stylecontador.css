@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lora', serif;
+}
+
+body{
+    background-color: #001f4b; /*https://colorpalettes.net/color-palette-4419/*/
+    color: #04BBEC;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#counter {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #04BBEC;
+    width: 200px;
+    border-radius: 100%;
+}
+
+#currentNumber {
+    color: #04BBEC;
+    padding: 14px;
+    margin: 5px;
+    border: 1px #04BBEC solid;
+    border-radius: 100%;
+}
+
+.somar, .subtrair {
+    color: #04BBEC;
+    background-color: #001f4b;
+    padding: 15px;
+    margin: 5px;
+    border: 1px #04BBEC solid;
+    border-radius: 100%;
+    font-size: 14px;
+}
+
+.ptext {
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px 25px 10px 30px;
+    background-color: #04BBEC;
+    color: #001f4b;
+}
+
+.linkptext {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
