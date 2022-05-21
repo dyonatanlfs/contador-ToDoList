@@ -15,8 +15,10 @@ body{
     margin: auto;
 }
 
-h1 {
+.pcontador, .plafazeres {
     text-align: center;
+    font-size: 40px;
+    margin: 20px 0 20px 0;
 }
 
 #counter {
@@ -24,7 +26,7 @@ h1 {
     padding: 10px;
     margin: auto;
     border: 1px solid #04BBEC;
-    width: 200px;
+    max-width: 200px;
     border-radius: 100%;
 }
 
@@ -59,3 +61,55 @@ h1 {
     color: white;
     font-size: 20px;
 }
+
+.formlistafazeres {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;   
+}
+
+.inputlistafazeres, .buttontarefa {
+    background-color: #04BBEC;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: #001f4b;
+}
+
+.lafazeres {
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+    font-size: 20px;
+}
+
+#listafazeres {
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px 5px 10px 5px;
+}
+
+.buttontarefa {
+    padding: 7px;
+    border: none;
+    margin: 8px 5px 8px 5px;
+}
+
+fieldset {
+    border-color: #04BBEC;
+}
+.stylefieldset {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.legendfiedset {
+    font-size: 20px;
+}
+
+[type="checkbox"]:checked + .tarefa {
+    text-decoration: line-through; /* Cria um risco no meio do texto */
+    text-decoration-color: #04BBEC;
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Contador</title>
+    <link rel="stylesheet" href="assets/css/stylecontador.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/DLFS-logo-2.png">
+</head>
+<body>
+    <p class="ptext">Projeto desenvolvido como parte da aula Introdução a JavaScript do bootcamp realizado pela 
+        <a href="https://www.dio.me/" class="linkptext" target="_blank">Dio</a> e oferecido pela 
+        <a href="https://www.tqi.com.br/" class="linkptext" target="_blank">TQI</a>.
+    </p>
+    <p class="pcontador">Contador</p>
+    <div id="counter">
+        <button class="subtrair" name="subtrair" onclick="decrement()">-</button>
+        <span id="currentNumber">0</span>
+        <button class="somar" name="somar" onclick="increment()">+</button>
+    </div>
+    <div>
+        <p class="plafazeres">Lista de afazeres</p>
+        <form action="jsToDoList.js" method="post" class="formlistafazeres">
+            <label for="listafazeres" class="lafazeres">Insira as tarefas realizadas</label>
+            <input type="text" name="listafazeres" id="listafazeres" size="35" class="inputlistafazeres">
+            <button type="button" class="buttontarefa">Inserir tarefa</button>
+            <fieldset class="stylefieldset">
+                <legend class="legendfiedset">Tarefas concluídas:</legend>
+                <form action="checkboxTaredas" method="post" class="formtarefas">
+                    <input type="checkbox" id="tarefa01" name="tarefa01" value="tarefa01" class="tarefa01">
+                    <label for="tarefa01" class="tarefa">Limpar cozinha.</label><br>
+                    <input type="checkbox" id="tarefa01" name="tarefa01" value="tarefa01" class="tarefa01">
+                    <label for="tarefa01" class="tarefa">Limpar cozinha.</label><br>
+                </form>                
+            </fieldset>
+        </form>
+    </div>
+    <script src="assets/js/jscontador.js"></script>
+</body>
+</html>
